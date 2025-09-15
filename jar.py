@@ -21,7 +21,7 @@ import google.generativeai as genai
 import re
 
 load_dotenv()
-GEMINI_API_KEY = os.getenv("AIzaSyCxyValqZoY0P6oaPj0OLrhdrB4Vgjf2Cc")
+GEMINI_API_KEY = os.getenv("")
 genai.configure(api_key=GEMINI_API_KEY)
 
 engine = pyttsx3.init()
